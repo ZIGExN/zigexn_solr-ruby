@@ -5,8 +5,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |spec|
   spec.name          = "zigexn_solr-ruby"
   spec.version       = "0.0.1"
-  spec.authors       = ["kalrover"]
-  spec.email         = ["kal@zigexn.co.jp"]
+  spec.authors       = ["ZIGExN"]
+  spec.email         = ["g-dev@zigexn.co.jp"]
 
   spec.summary       = %q{ZIGExN's fork of the old Apache solr-ruby}
   spec.description   = %q{ZIGExN's fork of the old Apache solr-ruby}

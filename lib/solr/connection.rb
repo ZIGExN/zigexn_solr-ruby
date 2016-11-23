@@ -144,6 +144,10 @@ class Solr::Connection
   def info
     send(Solr::Request::IndexInfo.new)
   end
+
+  def more_like_this(params, &action)
+    create_and_send_query(Solr::Request::Mlt, params, &action)
+  end
   
   # send a given Solr::Request and return a RubyResponse or XmlResponse
   # depending on the type of request
